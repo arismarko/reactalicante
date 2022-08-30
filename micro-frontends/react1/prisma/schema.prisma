@@ -1,0 +1,25 @@
+// An empty Prisma Schema with no models, perfect as a starting point for your own schema.
+
+datasource db {
+provider = "postgres"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Store {
+  id        String     @default(cuid()) @id
+  title     String
+  location  String?
+  products  Product[]
+}
+
+model Product {
+  id            String       @default(cuid()) @id
+  name          String?
+  createdAt     DateTime  @default(now()) @map(name: "created_at")
+  updatedAt     DateTime  @updatedAt @map(name: "updated_at")
+  stores        Store[]
+}

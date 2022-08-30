@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_alicante_microfrontends_react1=self.webpackChunk_alicante_microfrontends_react1||[]).push([[760],{760:(e,r,n)=>{n.r(r),n.d(r,{createRuntime:()=>t});var t=(0,n(700).configureRuntime)({locale:"en"})({onError:function(e){return console.log("🚨 log this properly 🔥! e.g. Sentry",e)}}).createRuntime}}]);

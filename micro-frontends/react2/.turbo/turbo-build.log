@@ -1,0 +1,4 @@
+[36m@alicante-microfrontends/react2:build[0m: cache hit, replaying output [2mf642ec80e08f057e[0m
+[36m@alicante-microfrontends/react2:build: [0m$ lean build --config=react
+[36m@alicante-microfrontends/react2:build: [0mBuilding @alicante-microfrontends/react2
+[36m@alicante-microfrontends/react2:build: [0m@alicante-microfrontends/react2 was built successfully

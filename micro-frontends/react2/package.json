@@ -1,0 +1,25 @@
+{
+  "name": "@alicante-microfrontends/react2",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "lean dev --config=react",
+    "build": "lean build --config=react"
+  },
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "@leanjs/react": "*",
+    "react": "*",
+    "react-dom": "*"
+  },
+  "dependencies": {
+    "@alicante-microfrontends/runtime-react": "*",
+    "@next-auth/prisma-adapter": "1.0.4",
+    "@prisma/client": "^4.2.1",
+    "regenerator-runtime": "^0.13.9"
+  },
+  "devDependencies": {
+    "@leanjs/cli": "*",
+    "prisma": "^4.2.1"
+  }
+}
